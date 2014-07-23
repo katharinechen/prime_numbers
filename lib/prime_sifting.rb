@@ -13,3 +13,9 @@ def prime_sifting(number)
   primeArray
 end
 
+def nth_prime(nth)
+
+  primes = prime_sifting(nth**3)
+  primes[nth - 1]
+
+end

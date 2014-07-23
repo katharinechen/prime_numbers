@@ -13,3 +13,15 @@ describe("prime_sifting") do
 
 end
 
+describe("nth_prime") do
+
+  it("returns the nth prime number") do
+    expect(nth_prime(4)).to(eq(7))
+  end
+
+  it("returns the nth prime number") do
+    expect(nth_prime(20)).to(eq(71))
+  end
+
+end
+
